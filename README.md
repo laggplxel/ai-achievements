@@ -76,6 +76,10 @@ Weather forecasting: <https://deepmind.google/science/weathernext/>
 
 Physics:
 
+The really big one: https://arxiv.org/abs/2610.16733
+
+They tested 50 unreleased research level physics questions that would take experts days to do on LLMs, and GPT 6 Astra did it with 98% accuracy with the cost just being under 3 USD per problem. Hell, Astra even corrected the questions themselves and said the experts are the ones that are wrong, and upon further checking, it was correct.
+
 <https://journals.aps.org/prxintelligence/abstract/10.1103/9qlr-jp6x>
 
 <https://journals.aps.org/prxintelligence/abstract/10.1103/dldf-7tfm>
