@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI and mathematics</title>
+  <link rel="canonical" href="https://laggplxel.github.io/ai-achievements/ai-math/">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container-lg px-3 my-5 markdown-body">
+    <h1><a href="./">AI and mathematics</a></h1>
+<p>Intelligent means abstraction, reasoning, creativity, critical thinking, and cognitive depth.</p>
+
+<p>LLMs have demonstrated these by doing open math problems.</p>
+
+<p>A cool thing is that there was another Erdos problem back in around march 2026 which was indeed solved without previous literature on it and even the chat link where it happened is available.</p>
+
+<p><a href="https://www.erdosproblems.com/1196">https://www.erdosproblems.com/1196</a></p>
+
+<p><a href="https://chatgpt.com/share/69dd1c83-b164-8385-bf2e-8533e9baba9c">https://chatgpt.com/share/69dd1c83-b164-8385-bf2e-8533e9baba9c</a> (chat link used to solve the problem).</p>
+
+<p>Just see the chat in the chat link. Merely a SINGLE prompt statement of the unsolved problem with no human ingenuity, and the ai model was the one which solved the unsolved problem.</p>
+
+<p>This result has been looked at by several mathematicians including Terence Tao, and they uploaded a paper on it: <a href="https://arxiv.org/abs/2605.00301">https://arxiv.org/abs/2605.00301</a></p>
+
+<p>Where they literally say &quot;We introduce a new method for bounding Erdős sums of primitive sets, suggested from output of GPT-5.4 Pro, based on Markov chains with von Mangoldt weights.&quot;</p>
+
+<p>Keyword: &quot;new&quot;</p>
+
+<p>The hard part about this is that you can&#x27;t even say &quot;human mathematicians did this&quot; or &quot;it mashed something up and threw random shit till it worked&quot;, because the chat link to see all its reasoning is right there. If it was mashing, you can tell me where you see the mashing in the chain of thought. Also, It was not connected to Lean in this environment. It doesn&#x27;t have a proof checker, so what is it mashing against anyway? It was checked later with a proof checker that its output is indeed correct.</p>
+
+<p>So exactly what was it doing? It&#x27;s not specialized to math (it&#x27;s a general purpose model), it&#x27;s not connected to a proof checker to verify its reasoning or thought process of what works and what doesn&#x27;t, all it has is itself and a calculator (python). How exactly did it have the judgement to know when to stop and determine that this is the correct solution? How did it know that this is the logical argument that works?</p>
+
+<p>Yeah, I think it&#x27;s because it&#x27;s intelligent.</p>
+
+<p>To be clear, this is a pretty insignificant problem compared to all the insanely great other math achievements AI has done (as I showed you in the ai achievements page), such as even a millennium prize problem (Navier stokes) or Quasi-Riemann Hypothesis (which is the biggest number theory result in over 200 years), but this is the most interesting because it has a chat link available, unlike the other problems.</p>
+
+<p>Navier Stokes: <a href="https://openai.com/index/navier-stokes-solution/">https://openai.com/index/navier-stokes-solution/</a></p>
+
+<p>Quasi-Riemann Hypothesis: <a href="https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf">https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf</a></p>
+
+<p>Other achievements: <a href="https://laggplxel.github.io/ai-achievements/">https://laggplxel.github.io/ai-achievements/</a></p>
+
+<p>If you want to continue being skeptical because you don&#x27;t understand the math here (which you obviously don&#x27;t), I can give you a little math lesson right here right now on verifying one of AI&#x27;s achievements.</p>
+
+<p>This one is easy and short to verify yourself in case you&#x27;re skeptical.</p>
+
+<p>Claude Fable 5 (something publicly accessible to you today btw, so don&#x27;t go on about &quot;it&#x27;s a research specialized model&quot;) disproved the Jacobian conjecture (that all polynominal multivariable functions with a constant non zero Jacobian determinant are injective) with a counterexample ( <a href="https://en.wikipedia.org/wiki/Jacobian_conjecture#Counterexample_for_n_%3E_2">https://en.wikipedia.org/wiki/Jacobian_conjecture#Counterexample_for_n_%3E_2</a> ):</p>
+
+<ul>
+
+<li>a = (1 + xy)³ z + y² (1 + xy)(4 + 3xy)</li>
+
+<li>b = y + 3x(1 + xy)² z + 3xy²(4 + 3xy)</li>
+
+<li>c = 2x - 3x²y - x³z</li>
+
+</ul>
+
+<p>If you calculate the Jacobian determinant of this, which you can verify with a regular calculator, <a href="https://www.wolframalpha.com/input?i=Det%5BD%5B%7B%281%2Bx+y%29%5E3+z+%2B+y%5E2+%281+%2B+x+y%29+%284+%2B+3x+y%29%2C+y+%2B+3x+%281+%2B+x+y%29%5E2+z+%2B+3x+y%5E2+%284+%2B+3x+y%29%2C+2x+-+3x%5E2+y+-+x%5E3+z%7D%2C+%7B%7Bx%2Cy%2Cz%7D%7D%5D%5D">https://www.wolframalpha.com/input?i=Det%5BD%5B%7B%281%2Bx+y%29%5E3+z+%2B+y%5E2+%281+%2B+x+y%29+%284+%2B+3x+y%29%2C+y+%2B+3x+%281+%2B+x+y%29%5E2+z+%2B+3x+y%5E2+%284+%2B+3x+y%29%2C+2x+-+3x%5E2+y+-+x%5E3+z%7D%2C+%7B%7Bx%2Cy%2Cz%7D%7D%5D%5D</a></p>
+
+<p>It shows -2. So it qualifies. It&#x27;s constant, and it&#x27;s not zero.</p>
+
+<p>Now the counterexample happens in the fact the map sends three distinct inputs, (0, 0, -1/4), (1, -3/2, 13/2), and (-1, 3/2, 13/2) to same identical output vector (-1/4, 0, 0).</p>
+
+<p>So it&#x27;s not injective. Because injective means to be one to one and have a distinct output for each input. But this one has the same output for three different input.</p>
+
+<p>Hence the Jacobian conjecture is false for n=&gt;3. It is simple to verify.</p>
+
+<p>The exposition of how this counter example works is more complex, though: <a href="https://arxiv.org/abs/2608.00222">https://arxiv.org/abs/2608.00222</a></p>
+
+<h2>Part two: “Computers always did math!”</h2>
+
+<p>The entire point is that the LLM is not connected to any proof checker which works like Z3 (atp, automated theorem prover) nor Lean.</p>
+
+<p>What you are saying is comparing it to systems such as Z3, when it just isn’t.</p>
+
+<p>The important idea here is that despite no proof checker to formally check its thought process throughout, it has output a correct and novel idea to solve a problem that was later checked and verified by several mathematicians.</p>
+
+<p>There is no logical verifier module in the transformer architecture.</p>
+
+<p>This is also in no way similar to other computer checked problems like the four color theorem because 4CT was literally just a very exhaustive case check, and mathematicians were deeply unsatisfied with it because it offered no logical arguments or proofs.</p>
+
+<p>This literally does give the logical arguments and proofs. New ones, which seem to be correct.</p>
+
+<p>It combined two ideas, primitive sets in number theory linked with Markov chains / hitting probabilities on the divisibility poset, to solve the problem. It gave a logical argument in natural language that was correct.</p>
+
+<p>That is literally what human mathematicians do.</p>
+
+<p>For example, Andrew Wiles solves Fermat&#x27;s Last Theorem, a very great problem that had been unsolved for 350 years: <a href="https://youtu.be/i0UTeQfnzfM?t=155">https://youtu.be/i0UTeQfnzfM?t=155</a></p>
+
+<p>He did it by noticing a link between two concepts people haven’t done before, which is Kolyvagin-Flach method + Iwasawa theory.</p>
+
+<p>Like GPT here, he connected two ideas.</p>
+
+<p>“Brute force” by definition needs something to force against. What’s being forced against? Considering there’s no proof checker, nor an exhaustive case check like 4CT.</p>
+
+<p>If it’s “brute forcing” without a proof checker, it is impossible to generate a coherent proof, let alone in just 80 minutes, because mathematics is infinite. It’ll just constantly spew gibberish.</p>
+  </main>
+</body>
+</html>
