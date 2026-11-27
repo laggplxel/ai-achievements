@@ -28,7 +28,13 @@ If you only open seven links, open these. Each one has someone outside the AI co
 
 ## Mathematics
 
-**The Riemann Hypothesis:** see Start here.
+**The road to the Riemann Hypothesis took under four months.** The hypothesis says every nontrivial zero of the zeta function sits on one line, the "critical line." Here's how fast AI closed in on it:
+
+1. **August 2026: two thirds of the zeros.** The best proven fraction of zeros on the critical line had been 41.6%. Claude pushed it to 67.2%. Number theorists Brian Conrey and Dan Goldston reviewed it, and it's formalized in Lean. [Anthropic](https://www.anthropic.com/research/riemann-zeta) · [Paper](https://arxiv.org/abs/2608.13637)
+2. **September 2026: no zeros past 7/8.** OpenAI's model proved the quasi-Riemann hypothesis: the zeta function has no zeros with real part above 7/8. Also formalized in Lean, so anyone can machine-check it. [Paper](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf)
+3. **November 2026: all of them.** Levent Alpöge and Claude proved the full Riemann Hypothesis, plus the Generalized Riemann Hypothesis for Dirichlet L-functions, and the Lean community certified it. See Start here.
+
+The full proof implies both earlier results, but they show how quickly each wall fell.
 
 **The sunflower conjecture of Erdős and Rado (from 1960).** It says that any big enough family of small sets must contain a "sunflower": several sets that all overlap in exactly the same core. It's one of the best-known open problems in combinatorics. Humans made a big breakthrough on it in 2019 but still couldn't finish it. On November 24, 2026, OpenAI posted a proof of the conjecture for every fixed number of petals. [Paper](https://github.com/openai/math/blob/main/preprints/An-exponential-bound-for-sunflowers-November-24-2026/paper.pdf)
 
@@ -43,10 +49,6 @@ In November, it went further. Anthropic's Levent Alpöge and NYU's Tristan Buckm
 
 **The Kakeya conjecture in every dimension.** Humans only proved the 3D case in 2025 (Hong Wang and Joshua Zahl). OpenAI's model proved Sogge's local smoothing conjecture (from 1991) in every dimension, which gives Kakeya in every dimension at once. Formalized in Lean. [Paper](https://github.com/openai/math/blob/main/preprints/Local-smoothing-for-the-Euclidean-wave-equation-October-25-2026/paper.pdf)
 Before that, it had already done Kakeya in [4 dimensions](https://github.com/openai/math/blob/main/preprints/Every-four-dimensional-Kakeya-set-has-full-Hausdorff-dimension-September-24-2026/paper.pdf) and the stronger "maximal" version in [3 dimensions](https://github.com/openai/math/blob/main/preprints/The-Kakeya-maximal-conjecture-in-three-dimensions-September-23-2026/paper.pdf).
-
-**The quasi-Riemann hypothesis.** The Riemann zeta function has no zeros with real part above 7/8. Formalized in Lean, so anyone can machine-check it. [Paper](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf)
-
-**Over two thirds of the Riemann zeta zeros are on the critical line.** The best proven fraction had been 41.6%. Claude pushed it to 67.2%. Number theorists Brian Conrey and Dan Goldston reviewed it, and it's formalized in Lean. [Anthropic](https://www.anthropic.com/research/riemann-zeta) · [Paper](https://arxiv.org/abs/2608.13637)
 
 **Hilbert's tenth problem over the rationals.** No algorithm can decide whether a polynomial equation has a rational solution. [Paper](https://github.com/openai/math/blob/main/preprints/Hilberts-tenth-problem-over-the-rational-numbers-September-24-2026/main.pdf)
 
